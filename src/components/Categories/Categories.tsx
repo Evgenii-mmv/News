@@ -39,6 +39,6 @@ const Categories = forwardRef(
   }
 );
 
-Categories.displayName = "Categories"; // eslint пиздел, поэтому указал, хз чо это ))
+Categories.displayName = "Categories";
 
 export default Categories;

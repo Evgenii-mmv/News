@@ -17,6 +17,11 @@ const BannersList = ({ banners }: Props) => {
   );
 };
 
-const NewsBannerWithSkeleton = withSkeleton<Props>(BannersList, "banner", 10, "row");
+const NewsBannerWithSkeleton = withSkeleton<Props>(
+  BannersList,
+  "banner",
+  10,
+  "row"
+);
 
 export default NewsBannerWithSkeleton;
